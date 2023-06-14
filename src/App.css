@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.main-bg {
+  height: 300px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/02/21/22/58/hamburger-1214462_1280.jpg);
+  background-size: cover;
+  background-position: center;
+}
