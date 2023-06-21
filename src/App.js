@@ -20,14 +20,6 @@ function BurgerItems(props) {
   );
 }
 
-function About() {
-  return (
-    <div>
-      <h4>왜사 정보임</h4>
-    </div>
-  );
-}
-
 function App() {
   const [burger] = useState(burgerData);
   let navigate = useNavigate();
@@ -50,13 +42,6 @@ function App() {
               }}
             >
               DETAIL
-            </Nav.Link>
-            <Nav.Link
-              onClick={() => {
-                navigate("/about");
-              }}
-            >
-              About
             </Nav.Link>
           </Nav>
         </Container>
@@ -86,11 +71,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/detail" element={<DetailPage />} />
-        <Route path="/about" element={<About />}>
-          <Route path="/member" element={<div>멤버정보임</div>} />
-          <Route path="/location" element={<div>위치정보임</div>} />
-        </Route>
+        <Route path="/detail/:id" element={<DetailPage burger={burger} />} />
       </Routes>
     </div>
   );
