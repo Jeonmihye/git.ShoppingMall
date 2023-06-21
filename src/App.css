@@ -10,6 +10,7 @@ ol {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .App {
@@ -22,3 +23,8 @@ a {
   background-size: cover;
   background-position: center;
 }
+
+/* .me_auto {
+  display: flex;
+  justify-content: space-between;
+} */

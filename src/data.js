@@ -1,6 +1,6 @@
 let burgerData = [
   {
-    id: 0,
+    id: 1,
     title: "빅맥",
     content:
       "100% 순 쇠고기 패티 두 장에 빅맥®만의 특별한 소스. 입안에서 살살 녹는 치즈와 신선한 양상추, 양파, 그리고 피클까지.50년 넘게 전 세계인의 입맛을 사로 잡은 버거의 대명사.",
@@ -9,17 +9,18 @@ let burgerData = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "슈슈버거",
-    content: "Born in Seoul",
-    price: 110000,
+    content: "탱~글한 통새우살 가득~ 슈슈 버거!",
+    price: "7000원",
   },
 
   {
-    id: 2,
+    id: 3,
     title: "맥스파이시 버거",
-    content: "Born in the States",
-    price: 130000,
+    content:
+      "100% 통닭다리살 겉바속촉 케이준 치킨 패티,촉촉한 포테이토 브리오쉬 번, 스페셜 스모키 소스가 선사하는 놀랍도록 새로운 맛의 치킨 버거!",
+    price: "6800원",
   },
 ];
 
