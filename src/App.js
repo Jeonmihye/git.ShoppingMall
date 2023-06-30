@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./App.module.css";
 import { Button, Navbar, Container, Nav } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import burgerData from "./data.js";
@@ -10,7 +10,7 @@ function BurgerItems(props) {
   return (
     <div>
       <img
-        src={process.env.PUBLIC_URL + "/img/" + props.index + ".png"}
+        src={process.env.PUBLIC_URL + "/img/" + props.burger.id + ".png"}
         width="80%"
       ></img>
       <h4>{props.burger.title}</h4>
